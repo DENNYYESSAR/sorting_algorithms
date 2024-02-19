@@ -17,7 +17,8 @@ void swap_elements(int *a, int *b)
 }
 
 /**
- * heapify_down - Maintains the max-heap property starting from a node downwards.
+ * heapify_down - Maintains the max-heap property starting from
+ * a node downwards.
  * @array: The array to heapify.
  * @size: The size of the array.
  * @base: The base index for the heapify operation.
