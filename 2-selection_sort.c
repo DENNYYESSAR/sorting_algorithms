@@ -22,6 +22,7 @@ void selection_sort(int *array, size_t size)
 		if (min_index != i)
 		{
 			int temp = array[i];
+
 			array[i] = array[min_index];
 			array[min_index] = temp;
 			print_array(array, size);
