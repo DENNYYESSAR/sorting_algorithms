@@ -3,6 +3,14 @@
 
 #include <stddef.h>
 
+/**
+ * enum kind_e - Represents the kind of a playing card
+ *
+ * @SPADE: Represents a spade card
+ * @HEART: Represents a heart card
+ * @CLUB: Represents a club card
+ * @DIAMOND: Represents a diamond card
+ */
 typedef enum kind_e
 {
 	SPADE = 0,
